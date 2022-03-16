@@ -4,7 +4,9 @@ This is a personality quiz!
 ~~~~~~~~~~~~~~~~~~~~~~
 Answer these questions to get your MBTI!
       ''')
+
 yourPersonality = ''
+
 running = True
 
 while running == True:
@@ -22,6 +24,7 @@ Answer \'I\' for drawing away from others and \'E\' for getting closer to others
     print('Wow! You\'re an extrovert!')
   else:
     print('Enter either I or E')
+    q1 = input().upper()
     
   print('''
 Question2
@@ -37,6 +40,7 @@ Answer \'N\' if you look towards the big picture, or \'S\' if you are a realisti
     print('You would be a Sensing kind of person. That\'s pretty cool!')
   else:
     ('Enter either N or S please.')
+    q2 = input().upper()
 
   print('''
 Question3
@@ -52,6 +56,7 @@ Answer \'T\' if you make decisions logically or \'F\' if you make decisions sent
     print('Being a Feel')
   else:
     ('Enter either T or F please.')
+     q3 = input().upper()
 
   print('''
 Question4
@@ -70,6 +75,8 @@ your options.
     print('Perceivers are sooo wonderful though.')
   else:
     ('Enter either J or P please.')
+    q4 = input().upper()
+    
   print ('Oh! you have completed the test your personality type is ' + yourPersonality + '!')
   break
   
